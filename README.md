@@ -17,7 +17,7 @@ Check if a number is a valid Australian postcode.
 > isValidAustralianPostcode(872);
 < true
 
-> isValidAustralianPostcode('9912');
+> isValidAustralianPostcode('0112');
 < false
 
 > isValidAustralianPostcode('12345');
