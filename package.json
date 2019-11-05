@@ -1,6 +1,6 @@
 {
   "name": "is-valid-australian-postcode",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Check if a number is a valid Australian postcode",
   "main": "dist/umd/index.js",
   "module": "dist/esm/index.js",
