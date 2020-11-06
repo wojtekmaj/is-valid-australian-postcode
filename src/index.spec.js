@@ -65,8 +65,7 @@ describe('isValidAustralianPostcode', () => {
     ${9000}  | ${true} // QLD - LVRs & PO
     ${9999}  | ${true}
     ${10000} | ${false}
-  `('returns $expectedResult for $input (postcodes as numbers)',
-  ({ input, expectedResult }) => {
+  `('returns $expectedResult for $input (postcodes as numbers)', ({ input, expectedResult }) => {
     const result = isValidAustralianPostcode(input);
 
     expect(result).toBe(expectedResult);
@@ -106,8 +105,7 @@ describe('isValidAustralianPostcode', () => {
     ${'9000'}  | ${true} // QLD - LVRs & PO
     ${'9999'}  | ${true}
     ${'10000'} | ${false}
-  `('returns $expectedResult for $input (4-digit postcodes as strings)',
-  ({ input, expectedResult }) => {
+  `('returns $expectedResult for $input (4-digit postcodes as strings)', ({ input, expectedResult }) => {
     const result = isValidAustralianPostcode(input);
 
     expect(result).toBe(expectedResult);
@@ -124,8 +122,7 @@ describe('isValidAustralianPostcode', () => {
     ${'899'} | ${true}
     ${'900'} | ${true}
     ${'999'} | ${true}
-  `('returns $expectedResult for $input (3-digit postcodes as strings without leading zeros)',
-  ({ input, expectedResult }) => {
+  `('returns $expectedResult for $input (3-digit postcodes as strings without leading zeros)', ({ input, expectedResult }) => {
     const result = isValidAustralianPostcode(input);
 
     expect(result).toBe(expectedResult);
