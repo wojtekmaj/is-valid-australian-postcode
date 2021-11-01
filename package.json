@@ -45,5 +45,6 @@
     "dist/",
     "src/"
   ],
-  "repository": "https://github.com/DemystData/is-valid-australian-postcode.git"
+  "repository": "https://github.com/DemystData/is-valid-australian-postcode.git",
+  "packageManager": "yarn@3.1.0"
 }
