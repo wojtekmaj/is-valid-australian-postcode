@@ -7,11 +7,7 @@ export default function isValidAustralianPostcode(rawPostcode) {
 
   const numPostcode = parseInt(rawPostcode, 10);
 
-  if (
-    numPostcode < 200
-    || (numPostcode >= 300 && numPostcode <= 799)
-    || numPostcode > 9999
-  ) {
+  if (numPostcode < 200 || (numPostcode >= 300 && numPostcode <= 799) || numPostcode > 9999) {
     return false;
   }
 
