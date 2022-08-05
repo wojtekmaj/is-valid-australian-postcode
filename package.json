@@ -53,7 +53,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/DemystData/is-valid-australian-postcode.git"
+    "url": "https://github.com/wojtekmaj/is-valid-australian-postcode.git"
   },
   "packageManager": "yarn@3.1.0"
 }
