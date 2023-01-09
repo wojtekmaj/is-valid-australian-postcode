@@ -2,6 +2,7 @@ import isValidAustralianPostcode from './index';
 
 describe('isValidAustralianPostcode', () => {
   it('returns false for no input', () => {
+    // @ts-expect-error-next-line
     const result = isValidAustralianPostcode();
 
     expect(result).toBe(false);
