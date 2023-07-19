@@ -12,18 +12,14 @@ Check if a number is a valid Australian postcode.
 
 ## Examples
 
-```js
-> isValidAustralianPostcode('0872');
-< true
+```ts
+isValidAustralianPostcode('0872'); // true
 
-> isValidAustralianPostcode(872);
-< true
+isValidAustralianPostcode(872); // true
 
-> isValidAustralianPostcode('0112');
-< false
+isValidAustralianPostcode('0112'); // false
 
-> isValidAustralianPostcode('12345');
-< false
+isValidAustralianPostcode('12345'); // false
 ```
 
 ## License
