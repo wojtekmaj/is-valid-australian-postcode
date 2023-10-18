@@ -1,6 +1,6 @@
 {
   "name": "is-valid-australian-postcode",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Check if a number is a valid Australian postcode",
   "type": "module",
   "sideEffects": false,
