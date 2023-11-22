@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/is-valid-australian-postcode.svg)](https://www.npmjs.com/package/is-valid-australian-postcode) ![downloads](https://img.shields.io/npm/dt/is-valid-australian-postcode.svg) [![CI](https://github.com/wojtekmaj/is-valid-australian-postcode/workflows/CI/badge.svg)](https://github.com/wojtekmaj/is-valid-australian-postcode/actions)
+[![npm](https://img.shields.io/npm/v/is-valid-australian-postcode.svg)](https://www.npmjs.com/package/is-valid-australian-postcode) ![downloads](https://img.shields.io/npm/dt/is-valid-australian-postcode.svg) [![CI](https://github.com/wojtekmaj/is-valid-australian-postcode/actions/workflows/ci.yml/badge.svg)](https://github.com/wojtekmaj/is-valid-australian-postcode/actions)
 
 # Is-Valid-Australian-Postcode
 
