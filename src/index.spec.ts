@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+
 import isValidAustralianPostcode from './index.js';
 
 describe('isValidAustralianPostcode', () => {
