@@ -52,5 +52,5 @@
     "url": "git+https://github.com/wojtekmaj/is-valid-australian-postcode.git"
   },
   "funding": "https://github.com/wojtekmaj/is-valid-australian-postcode?sponsor=1",
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@4.10.2"
 }
